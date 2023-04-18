@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #f4f4f4;
+}
+
+.quiz-container {
+    position: relative;
+    top: 100px;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(58, 202, 238, 0.507);
+    box-shadow: 10px 10px 10px rgba(134, 126, 126, 0.356);
+    border-radius: 10px;
+}
+
+div.title {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    /* background: #f4f4f4; */
+}
+
+
+div.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: space-between; */
+    text-align: center;
+    gap: 20px;
+}
+
+div.welcome p {
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333;
+    /* background: #f4f4f4; */
+}
+
+
+
+div.question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: space-between; */
+    text-align: center;
+    gap: 20px;
+}
+
+.next-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: space-between; */
+    text-align: center;
+    margin-top: 200px;
+}
+
+/*  next button */
+.next {
+    display: none;
+}
+
+.next.active {
+    display: block;
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin: 0 auto;
+}
+
+/* timer styling and option */
+.timer {
+    display: none;
+}
+
+.timer.active {
+    display: block;
+}
+
+/*  start button */
+.start-button {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.question-timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    text-align: center;
+    margin: 40px 0;
+    font-family: inherit;
+}
+
+.question-container {
+    max-width: 80%;
+    width: 800px;
+    margin: 0 auto;
+    /* display: none; */
+}
+
+
+
+img {
+    max-width: 50%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px rgba(134, 126, 126, 0.356);
+}
+
+
+
+.question-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+label {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+
+
+.question-wrapper {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
